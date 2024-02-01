@@ -1,0 +1,129 @@
+/*-------------------hw_part1----------------------------------------*/
+body{
+    margin: 0;
+}
+.mainContainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dancingScript {
+    font-family : 'Dancing Script', cursive;
+
+
+}
+.one{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indieFlower {
+        font-family: 'Indie Flower', cursive;
+
+    }
+.rubikPixels {
+        font-family: 'Rubik Pixels', system-ui;
+    }
+.aveDisplay {
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+/*-------------------------hw_part2-----------------------------------------*/
+
+.mainContainer2{
+    width: 100%;
+    height: 250px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 2s;
+}
+
+.block2:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 2s;
+}
+/*------------------------hw_part3--------------------------------------------*/
+
+body{
+    padding: 15px;
+}
+.blocksColumn {
+    width: 98%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+.columnMain{
+    width: 98%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blocksRow{
+   width: 32%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+.h400{
+    height: 400px;
+}
+.h500{
+    height: 500px;
+}
+.h800{
+    height: 800px;
+}
+.colorDodgerblue{
+    background-color: dodgerblue;
+}
+.colorCornflowerblue{
+    background-color: cornflowerblue;
+}
+.header1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    transition: 2s;
+}
+.header2{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    transition: 2s;
+}
+.header1:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.header2:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
