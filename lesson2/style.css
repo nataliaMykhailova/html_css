@@ -126,4 +126,88 @@ body{
     transform: scale(1.2);
     transition: 2s;
 }
+/*---------------------Additional task 1------------------------------------------------*/
+.containerAdd1{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxAdd1{
+    width: 150px;
+    height: 120px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 80px;
+}
+.red{
+    color: red;
+}
+/*--------------------------------Additional task 2------------------------------------------*/
+.containerAdd2{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.colorBox{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    border: black solid 3px;
+    border-radius: 10px;
+    box-shadow: -17px -13px 37px -4px rgba(0,0,0,0.61);
 
+}
+.colorBox h2{
+    font-size: 25px;
+    text-align: center;
+}
+.headerAdd2{
+    text-align: center;
+    font-size: 80px;
+}
+.black{
+    background-color: black;
+}
+.redB{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.fuchsia{
+    background-color: fuchsia;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.maroon{
+    background-color: maroon
+}
+.olive{
+    background-color: olive;
+}
+.whiteText{
+    color: white;
+}
