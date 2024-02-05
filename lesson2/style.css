@@ -1,6 +1,7 @@
 /*-------------------hw_part1----------------------------------------*/
 body{
     margin: 0;
+    padding: 15px;
 }
 .mainContainer{
     width: 100%;
@@ -63,9 +64,6 @@ body{
 }
 /*------------------------hw_part3--------------------------------------------*/
 
-body{
-    padding: 15px;
-}
 .blocksColumn {
     width: 98%;
     margin: 15px;
@@ -156,7 +154,7 @@ h2{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 0 30px;
 }
 .colorBox{
     width: 220px;
@@ -177,6 +175,7 @@ h2{
 .headerAdd2{
     text-align: center;
     font-size: 80px;
+    margin: 40px;
 }
 .black{
     background-color: black;
@@ -210,4 +209,136 @@ h2{
 }
 .whiteText{
     color: white;
+}
+/*------------------------------Additional task 3---------------------------------------------------------------*/
+.topping-header{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 45px;
+    text-align: center;
+    font-family: Arial, sans-serif;;
+}
+.topping-container{
+    width: 55%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topping-card{
+    width: 125px;
+    height: 170px;
+    border: black solid 2px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.topping-image{
+    width: 70px;
+}
+.topping-end{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+/*------------------------------------Additional task 4--------------------------------------------------------*/
+.png2-container{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.png2-block{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.png2-block h1, h3{
+    margin: 5px;
+}
+
+
+.png2-blue {
+    background-color: #699BF7;
+}
+.png2-purple{
+    background-color: #C7B9FF;
+}
+.png2-yellow{
+    background-color: #FFC700;
+}
+.png2-terracotta{
+    background-color: #FF8577;
+}
+.button1{
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.button1 a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/*---------------------------Additional task 5-------------------------------------------------------------------*/
+.png3-header {
+    font-size: 50px;
+    text-shadow: -2px 0px 4px rgba(206,89,55,0.64);
+
+}
+.png3-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 70px;
+    flex-wrap: wrap;
+}
+.png3-card{
+    width: 550px;
+    height: 250px;
+    border: darkgreen solid 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    padding: 0 100px;
+    box-sizing: border-box;
+    box-shadow: -1px 2px 18px 2px rgba(10,133,59,0.65);
+}
+.png3-card a{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.png3-card p{
+    font-weight: bold;
+}
+.png3-card a:hover{
+    text-shadow: -2px 0px 4px rgba(206,89,55,0.64);
+    transition: 500ms;
 }
