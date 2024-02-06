@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 200px 100px 200px;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+        }
+        span{
+           font-size: 50px;
+            margin: 20px;
+
+        }
+        #id-green{
+            background-color: darkgreen;
+        }
+        #id-blue{
+            background-color: dodgerblue;
+        }
+        #id-pink{
+            background-color: #FF8577;
+        }
+
+    </style>
+</head>
+<body>
+<section id = "id-pink">
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur debitis eligendi iste, maiores natus
+        nesciunt nobis possimus quasi, quibusdam, recusandae saepe sint ullam veritatis voluptatem? Accusamus at autem
+        est iste odit porro quia! At dolore error et maiores nisi quod tempore ullam. Aperiam consectetur maiores nobis
+        omnis veritatis voluptatem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, blanditiis commodi consectetur corporis
+        dolore doloremque dolores doloribus eaque, ipsam maiores maxime natus, non omnis optio quia quod temporibus
+        ullam veritatis! Culpa eligendi exercitationem quaerat quis rem reprehenderit rerum tenetur unde? Cum facere,
+        sint? A corporis fuga illo quasi quos repellat.</p>
+    <a href="#id-blue">
+        <span>&#8609</span>
+    </a>
+</section>
+<section id = "id-blue">
+    <a href="#id-pink">
+        <span>&#8607</span>
+    </a>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur debitis eligendi iste, maiores natus
+        nesciunt nobis possimus quasi, quibusdam, recusandae saepe sint ullam veritatis voluptatem? Accusamus at autem
+        est iste odit porro quia! At dolore error et maiores nisi quod tempore ullam. Aperiam consectetur maiores nobis
+        omnis veritatis voluptatem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, blanditiis commodi consectetur corporis
+        dolore doloremque dolores doloribus eaque, ipsam maiores maxime natus, non omnis optio quia quod temporibus
+        ullam veritatis! Culpa eligendi exercitationem quaerat quis rem reprehenderit rerum tenetur unde? Cum facere,
+        sint? A corporis fuga illo quasi quos repellat.</p>
+    <a href="#id-green">
+        <span>&#8609</span>
+    </a>
+</section>
+<section id = "id-green">
+    <a href="#id-blue">
+        <span>&#8607</span>
+    </a>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur debitis eligendi iste, maiores natus
+        nesciunt nobis possimus quasi, quibusdam, recusandae saepe sint ullam veritatis voluptatem? Accusamus at autem
+        est iste odit porro quia! At dolore error et maiores nisi quod tempore ullam. Aperiam consectetur maiores nobis
+        omnis veritatis voluptatem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, blanditiis commodi consectetur corporis
+        dolore doloremque dolores doloribus eaque, ipsam maiores maxime natus, non omnis optio quia quod temporibus
+        ullam veritatis! Culpa eligendi exercitationem quaerat quis rem reprehenderit rerum tenetur unde? Cum facere,
+        sint? A corporis fuga illo quasi quos repellat.</p>
+</section>
+
+</body>
+</html>
