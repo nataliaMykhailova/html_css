@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+}
+.padding-135{
+    padding: 0 135px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FAFAFA;
+    height: 10vh;
+}
+header div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 135px;
+    box-sizing: border-box;
+}
+nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin:0 30px 0 10px;
+    box-sizing: border-box;
+}
+.width{
+    width: 100vw;
+}
+.main-text{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+main h1{
+    color: #BDBDBD;
+    font-size: 10vh;
+    font-weight: 300;
+    margin: 0;
+}
+main h2{
+    color: #333;
+    font-size:10vh;
+    font-weight: 700;
+    margin: 0;
+}
+main img{
+    width: 52vw;
+    height: 85vh;
+    margin: 5px;
+}
+article{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+article div{
+    width: 30vw;
+    height:40vh;
+}
+article img{
+    width: 15vw;
+    height: 40vh;
+}
+.h3{
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    margin: 0;
+}
+article p {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section{
+    margin-top: 15vh;
+}
+.section-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    color: #333;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.h1{
+    color: #F2F2F2;
+    font-size: 200px;
+    font-weight: 900;
+    margin: 0;
+}
+aside{
+    margin-top: 15vh;;
+}
+aside img{
+    width: 40vw;
+    height: 35vh;
+}
+.aside-div{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    height: 33vh;
+    margin-top: 10vh;
+    background-color:#2C2C2C;
+    padding: 30px 0 0 100px;
+    box-sizing: border-box;
+}
+
+.footer-nav{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

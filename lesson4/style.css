@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+.section-1{
+    height: 100vh;
+    background-image: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hLAVI7OyverQJfeSjwXU0mV~cZCpxyADoJQThOkQP~ZnsuWbLYpn6TbOO9NAxwJGCZLFqtDONtZ1WR~EjOxFMOOH731-sFBVlxd0N1qfupmvMNJ~qrSYyin-fN9GVh9sZBU-sBgq8Ic~3LopIhRyyLSOU7I1UpuqyX9sEHelsqFD3iGY8Q9FouAzNRyRY9fTqIFEJdRniofkjBZlHe8dgnn9p7vbGQ4Ifm7~-6ECyECk7B7wHPD9vSpI9i~TkECwYRf7jLecM55W~5oQ06I3PHTCinV6fj5UfjzyUxqc51-gKkk3nC6oLsfG4Nl6KF~Die3Iz4wC1E-2BR0IEhAIgg__");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 35vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://s3-alpha-sig.figma.com/img/ea58/8906/6051d6ed044c47455a840b85dae3ff49?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qGp9hzkpxrcMa7TjYzHuO3CFWWxl-BM-WgS1b25g10Fm~9Pjy78uot2e56k68aj0fk0Rc64mkRX26826QKFiM0tHFS0hJjk9lI6MoiNQ6CWDmYWEPh1DyWTrgBpwuLMtpQ1j27l3gIsqygOVRtfqcmSxM0PDu7ns8sNzfMExaEOcZu~cTzVLV8zUC0OkEicnM7a1txFcV8MN-x9Na1JkkO4EzP7LBmbWfHfGW0mdVoW8nspr0B53RnBz8BD9G1CHK2xT63aL3E~XI5Im7UoDd2AcNXkZDmBROnGi8cRqfhwD6pm2lXn-1~2P6eS8644IzqS21Nnzv6eKqx6GC0HZ-w__");
+}
+.box-center{
+    width: 35vw;
+    height: 40vh;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-center h2{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+.box-center p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.box-center button{
+    width: 25vw;
+    height: 8vh;
+    font-family: 'KoHo', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 400;
+}
+.section-2{
+    height: 100vh;
+    background-image: url("Rectangle 4.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    width: 60vw;
+    height:50vh;
+}
+.section-2 div{
+    width: 60vw;
+}
+.section-2 p{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+}
+.section-3{
+    height: 100vh;
+    background-image: url("Rectangle 4.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card {
+    width: 30vw;
+    height: 70vh;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card img{
+    width: 26vw;
+    height: 20vh;
+}
+.card p{
+    width:27vw ;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.card button{
+    width: 26vw;
+    height: 8vh;
+    font-family: 'KoHo', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-size: 35px;
+    font-weight: 400;
+}
+button:focus{
+    outline: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+

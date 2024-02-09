@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    width: 30vw;
+    height: 80vh;
+    border: 2px solid silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section img{
+    width: 60%;
+}
+input[type="text"],
+input[type="password"]{
+    display: block;
+    width:25vw;
+    height: 6vh;
+    border: 2px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 19px;
+    text-overflow: ellipsis;
+}
+input[type="submit"]{
+    display: block;
+    width:25vw;
+    height: 6vh;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+section p{
+    color: #8A8484;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.fb-enter{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fb-svg{
+    width:40px;
+}
+.fb-enter a {
+    color: #0a4ba1;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.forgot-password{
+    color: #0a4ba1;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+aside{
+    width: 30vw;
+    height: 10vh;
+    border: 2px solid silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+aside p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+aside a{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: dodgerblue;
+}
