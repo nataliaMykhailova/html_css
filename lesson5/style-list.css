@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.first-class>ol>li:nth-child(even){
+    color: pink;
+}
+#first-id>ol>li:nth-child(odd){
+    font-size: 22px;
+}
+.second-class>ol>li:nth-child(2n+4)::after{
+    content: "!";
+    color: red;
+}
+#second-id>ol>li:last-child{
+    color: purple;
+    font-weight: bold;
+}
+.third-class>ol>li:first-letter{
+    font-size: 30px;
+    color: red;
+
+}
