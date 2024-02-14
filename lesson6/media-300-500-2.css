@@ -1,0 +1,12 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .grid{
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "article-1 article-2 article-3"
+        "aside aside aside";
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+    }
+
+}

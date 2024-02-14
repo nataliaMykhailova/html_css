@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+header>div{
+    height: 10vh;
+    width: 10vw;
+}
+main{
+    height: 40vh;
+    background-color: #5E5050;
+}
+article{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+article>div{
+    width: 50%;
+    height: 40vh;
+}
+footer{
+    height: 10vh;
+    background-color: #699BF7;
+}
+.green{
+    background-color: darkolivegreen;
+}
+.yellow{
+    background-color: yellowgreen;
+}
+.purple{
+    background-color: mediumpurple;
+}
+.gray{
+    background-color: grey;
+}
