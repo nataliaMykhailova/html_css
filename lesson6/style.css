@@ -15,12 +15,13 @@ main{
 }
 article{
     width: 100vw;
+    height: 40vh;
     display: flex;
     flex-wrap: wrap;
 }
 article>div{
     width: 50%;
-    height: 40vh;
+    height: 50%;
 }
 footer{
     height: 10vh;
